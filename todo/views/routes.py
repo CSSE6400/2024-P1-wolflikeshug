@@ -34,7 +34,7 @@ def post_todo():
         "deadline_at": "2023-02-27T00:00:00",
         "created_at": "2023-02-20T00:00:00",
         "updated_at": "2023-02-20T00:00:00"
-    }, 201)
+    }), 201
 
 @api.route('/todos/<int:todo_id>', methods=['PUT'])
 def put_todo(todo_id):
